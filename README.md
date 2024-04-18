@@ -29,46 +29,9 @@ npm install --global windows-build-tools
 npm install
 ```
 6. Run the application:
-```
-node app.js
-```
+   Click file _RUN
 ---
-## ❓ Usage (Linux)
 
-1. Switch to root user:
-```
-sudo su
-```
-2. Install Node Version Manager (NVM):
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-```
-3. Close the terminal.
-4. Install Node.js version 18:
-```
-nvm install 18
-nvm use 18
-```
-5. Install required libraries:
-```
-sudo apt-get install libpcap0.8 libpcap0.8-dev
-```
-6. Install Python 3.10:
-```
-sudo apt install python3.10
-```
-7. Install build essentials:
-```
-sudo apt-get install build-essential
-```
-8. Install Node.js dependencies:
-```
-npm install
-```
-9. Navigate to the project directory and run the application:
-```
-node app.js
-```
 10. Open http://localhost:5001 in your browser.
 ---
 Utilized the parser from https://github.com/0xN0x/photon-packet-parser for efficient packet parsing.
